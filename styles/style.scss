@@ -64,7 +64,7 @@ header {
 }
 
 .home {
-  background: url("/img/home2.png");
+  background: url("../img/home2.png");
   color: var(--fontcolor);
   padding: 10%;
   margin: 0 -4rem;
@@ -76,6 +76,17 @@ header {
   h3 {
     font-size: 3rem;
     width: 60%;
+  }
+
+  .search {
+    margin-top: 2rem;
+    font-size: 2rem;
+    a {
+      background-color: var(--colorcloud);
+      padding: 0.5rem 3rem;
+      border-radius: 1rem;
+      color: #fff;
+    }
   }
 }
 
@@ -195,7 +206,7 @@ header {
 
 .contact {
   background: #bbd1dd;
-  background: url("/img/contact1.jpg");
+  background: url("../img/contact1.jpg");
   // background-size: cover;
   border-radius: 3rem;
   padding: 3rem;
@@ -262,20 +273,20 @@ footer {
         margin-top: 1rem;
         position: relative;
         input {
-            width: 100%;
-            padding: 1rem;
-            border-radius: 1rem;
-            border: #eee solid .2rem;
-            outline: none;
+          width: 100%;
+          padding: 1rem;
+          border-radius: 1rem;
+          border: #eee solid 0.2rem;
+          outline: none;
         }
         a {
           position: absolute;
           right: 2rem;
           color: #fff;
           background-color: var(--colorcloud);
-          padding: .6rem;
+          padding: 0.6rem;
           border-radius: 45%;
-          top: .5rem;
+          top: 0.5rem;
         }
       }
     }
@@ -365,14 +376,13 @@ footer {
   }
 
   .recently {
-      font-size: 2rem;
-
+    font-size: 2rem;
   }
 
   footer {
-      .box-container {
-          flex-direction: column;
-          font-size: 3rem;
-      }
+    .box-container {
+      flex-direction: column;
+      font-size: 3rem;
+    }
   }
 }
