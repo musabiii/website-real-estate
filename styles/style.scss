@@ -206,6 +206,7 @@ header {
 }
 
 .contact {
+  margin: 0 -4rem;
   background: #bbd1dd;
   background: url("../img/contact1.jpg");
   // background-size: cover;
@@ -316,6 +317,11 @@ footer {
   .home {
     margin: 0 0;
   }
+
+  .contact {
+    margin: 0 0;
+  }
+
 }
 
 @media (max-width: 780px) {

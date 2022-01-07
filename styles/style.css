@@ -252,6 +252,7 @@ header nav .login:hover {
 }
 
 .contact {
+  margin: 0 -4rem;
   background: #bbd1dd;
   background: url("../img/contact1.jpg");
   border-radius: 3rem;
@@ -361,6 +362,9 @@ footer .box-container .subscribe .inputbox a {
     padding: 0 2rem;
   }
   .home {
+    margin: 0 0;
+  }
+  .contact {
     margin: 0 0;
   }
 }
